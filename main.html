@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="design.css" type="text/css">
+    <script type="txt/javascript" src="calculation.js"></script>
+</head>
+<body>
+    <p>SIMPLE CALCULATOR </p>
+    <div class="main">
+        <form name="forms">
+            <input type="text" class="textview" name="answer">
+     
+        <table>
+            <tr>
+                <td><input type="button" class=" symbol" value="√" onclick="root(forms.answer.value)"></td>            
+                <td><input type="button" class=" symbol" value="X2" disabled></td>
+                <td><input type="button" class=" symbol" value="#" onclick="forms.answer.value +='# '"></td>
+                <td><input type="button" class="symbol" value="÷" onclick="forms.answer.value +='/'"></td>
+
+            </tr>
+            <tr>
+                <td><input type="button" class=" number" value="7" onclick="forms.answer.value +='7'"></td>                
+                <td><input type="button" class=" number" value="8" onclick="forms.answer.value +='8'"></td>                
+                <td><input type="button" class=" number" value="9" onclick="forms.answer.value +='9'"></td>                
+                <td><input type="button" class=" symbol" value="x" onclick="forms.answer.value +='*'"></td>                
+
+            </tr>
+            <tr>
+                <td><input type="button" class=" number" value="4" onclick="forms.answer.value +='4'"></td>                 
+                <td><input type="button" class="number" value="5" onclick="forms.answer.value +='5'"></td>                 
+                <td><input type="button" class="number" value="6" onclick="forms.answer.value +='6'" ></td>                 
+                <td><input type="button" class="symbol"  value="-" onclick="forms.answer.value +='-'"></td>                 
+
+            </tr>
+            <tr>
+                <td><input type="button" class=" number" value="1" onclick="forms.answer.value +='1'"></td>                 
+                <td><input type="button" class="number" value="2" onclick="forms.answer.value +='2'"></td>                 
+                <td><input type="button" class=" number" value="3" onclick="forms.answer.value +='3'"></td>                 
+                <td><input type="button" class=" symbol" value="+" onclick="forms.answer.value +='+'"></td>                 
+
+            </tr>
+            <tr>
+                <td><input type="button" class=" symbol" value="C" oncanplay="reset" onclick="forms.answer.value=''"></td>                 
+                <td><input type="button" class=" number" value="0" onclick="forms.answer.value +='0'"></td>                 
+                <td><input type="button" class="number" value="." onclick="forms.answer.value +='.'"></td>                 
+                <td><input type="button" class=" symbol" value="=" onclick="forms.answer.value=eval(forms.answer.value)"></td>                 
+
+            </tr>
+        </table>
+    </form>
+    </div>
+    
+</body></html>

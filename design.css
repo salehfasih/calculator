@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.number{
+    width: 150%;
+    padding: 15px;
+    font-size: 25px;
+    margin-left: 1px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 3px;
+    border-style: solid;
+    border-color: orange ;
+    border-width: 3px;
+
+    
+}
+.symbol{
+    width: 150%;
+padding: 15px;
+text-align: center;
+font-size: 25px;
+margin-left: 1px;
+cursor: pointer;
+margin-top: 3px;
+border-style: solid;
+border-color: orange ;
+border-width: 3px;
+
+}
+.symbol:hover{
+    background-color: red;
+}
+.number:hover{
+    background-color: blue;
+}
+.main{
+    height: 400px;
+    width: 265px;
+    background-color:orange;
+    margin-left: 450px;
+    margin-top: 150px;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    
+    
+    
+}
+.textview{
+    background-color: transparent;
+    width:250px;
+    height: 40px;
+    margin-top: 4px;
+    border-style:solid;
+    border-color: black;
+    border-width: 2px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.number{
+    padding: -10px;
+    text-align: center;
+}
+p{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1545851876-eb2bbc712ca6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMDk0fQ&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-attachment: fixed;
+}
